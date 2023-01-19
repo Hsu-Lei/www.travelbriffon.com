@@ -126,7 +126,7 @@ img{
 
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 400px){
 	.wrapper{
 		display: grid;
 	    padding: 60px;
@@ -134,7 +134,7 @@ img{
 	}
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 400px){
 	.wrapper{
 		display: grid;
 		width: 70%;
