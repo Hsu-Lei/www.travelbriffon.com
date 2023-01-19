@@ -135,12 +135,17 @@ section i{
     margin: 20px 30px;
 }
 @media screen and (max-width: 600px){
+	.container{
+		margin-left: 0;
+	}
 
 	body{
 		background-repeat: no-repeat;
 		overflow: auto;
 		background-attachment: fixed;
 	}
+	.container{
+		
 	header{
 		position: absolute;
 		float: center;
@@ -173,7 +178,7 @@ section i{
 	.content section{
 		letter-spacing: 2px;
 		font-size: 15px;
-		margin-left: 4vh;
+		margin-left: 7vh;
 		text-align: center;
 	}
 	.media{
