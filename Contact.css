@@ -155,13 +155,13 @@ section i{
 	.form {
 		position: absolute;
 		margin-left: 10%;
-		top: 110vh;
+		top: 120vh;
 	}
 	.form .contact-form input{
-		width: 23rem;
+		width: 19rem;
 	}
 	.form .contact-form textarea{
-		width: 23rem;
+		width: 19rem;
 	}
 	.content-form{
 		display: gird;
@@ -178,7 +178,7 @@ section i{
 	}
 	.media{
 		position: absolute;
-		top: 200vh;
+		top: 160vh;
 		margin-left: 30%;
 	}
 }
