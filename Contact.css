@@ -150,7 +150,7 @@ section i{
 		padding-top: 23vh;
 	}
 	.empty{
-		height: 220vh;
+		height: 250vh;
 	}
 	.form {
 		position: absolute;
@@ -178,7 +178,7 @@ section i{
 	}
 	.media{
 		position: absolute;
-		top: 200vh;
+		top: 240vh;
 		margin-left: 30%;
 	}
 }
