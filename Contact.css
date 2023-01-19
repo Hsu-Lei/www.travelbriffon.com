@@ -28,7 +28,7 @@ header{
     top: 2rem;
 }
 header h1{
-    font-size: 45px;
+	color: white;
     text-shadow: 4px 5px #5E3434;
 }
 .empty{
@@ -41,16 +41,20 @@ header h1{
     z-index: -1;
 }
 
+
 .content{
     display: flex;
     min-height: 110vh;
 }
+
 .content section{
-    margin-top: 8vh;
-    margin-left: 20vh;
+   margin-left:10px;
+
 }
 .content-form{
     margin-top: 7rem;
+    margin:auto;
+
 }
 section i{
     border-radius: 40%;
@@ -69,6 +73,7 @@ section i{
     justify-content: center;
     align-items: center;
     min-height: 110vh;
+    margin-top:-70px;
 }
 
 .form .contact-form input{
@@ -150,11 +155,11 @@ section i{
 		padding-top: 23vh;
 	}
 	.empty{
-		height: 300vh;
+		height: 220vh;
 	}
 	.form {
 		position: absolute;
-		margin-left: 10%;
+		margin-left: 14px;
 		top: 110vh;
 	}
 	.form .contact-form input{
@@ -177,12 +182,31 @@ section i{
 		text-align: center;
 	}
 	.media{
+		top: 200vh;
 		position: absolute;
-		top: 240vh;
-		margin-left: 30%;
+		margin-left:40px;
+        
+	}
+    .content-form{
+         margin:auto;
+         flex-direction:column;
+        }
+     .content-form section{
+          margin-right:50px;
+          margin-top:30px;
+    }
+	    .content-form section{
+	 margin-right:50px;
+	margin-top:30px;
 	}
 }
 @media screen and (min-width: 600px){
+
+
+        .content-form{
+         margin:auto;
+         flex-direction:row;
+        }
 	body{
 		background-repeat: no-repeat;
 		overflow: auto;
@@ -329,7 +353,7 @@ section i{
 	.media{
 		position: absolute;
 		top: 170vh;
-		margin-right: 30%;
+		margin-right: 25%;
 	}
 
     
