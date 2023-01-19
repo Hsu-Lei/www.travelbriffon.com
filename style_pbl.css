@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+
+
+body{
+	background: url(html_img/bg.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+
+a.active{
+    background-color: #CCE406 ;
+    border-radius: 10px;
+    color: black;
+    opacity: 0.8;
+}
+
+
+.wrapper1{
+	margin: 150px auto;
+	width: 70%;
+}
+
+img{
+	max-width: 320px;
+	float: left;
+	border-radius: 15px;
+	margin-right: 20px;
+}
+
+.text1{
+	color: white;
+}
+
+.text1 h2{
+	padding: 70px;
+	font-size: 35px;	
+}
+.text1 p{
+
+	float: center;
+}
+
+/*                                */
+
+.slider{
+	width: 100%;
+}
+
+.wrapper{
+	width: 100%;
+	height: 35em;
+	display: flex;
+	justify-content: center;
+}
+
+.card{
+	width: 17em;
+	height: 92%;
+	border-radius: 15px;
+	background-color: lightyellow;
+	padding: 5px;
+	margin: 7% auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.image{
+	width: 10em;
+	height: 10em;
+	border-radius: 50%;
+	border: 5px solid saddlebrown;
+	padding: 3px;
+	margin: 23px;
+}
+
+.card:hover{
+	transform: scale(1.1);
+    z-index: 1;
+    transition: 0.5s ease;
+}
+
+.image img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	object-fit: cover;
+
+}
+
+.team{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.member{
+	font-size: 1.5rem;
+	font-weight: 500;
+	position: relative;
+	color: #66483D;
+}
+
+.title{
+	color: #C7AD7F;
+	padding: 8px;
+	margin: 0px auto;
+	font-size: 13px;
+}
+
+.text{
+	text-align: center;
+	font-size: 13px;
+	margin: 1em 0;
+	color: #66483D;
+}
+
+
+
+@media screen and (max-width: 600px){
+	.wrapper{
+		display: grid;
+	    padding: 60px;
+	    margin: auto;
+	}
+}
+
+@media screen and (min-width: 600px){
+	.wrapper{
+		display: grid;
+		width: 70%;
+		height: 100%;
+		flex-wrap: wrap;
+	    padding: 60px;
+	    margin: auto;
+	}
+}
+
+@media screen and (min-width:768px){
+	.wrapper{
+		display: flex;
+		height: 100%;
+		width: 70%;
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (min-width: 800px){
+	.wrapper{
+		display: flex;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (min-width: 1280px){
+	.wrapper{
+		display: flex;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+}

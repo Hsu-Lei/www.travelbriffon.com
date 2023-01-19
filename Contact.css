@@ -1,0 +1,338 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+a.active{
+    background-color: #CCE406 ;
+    border-radius: 10px;
+    color: black;
+    opacity: 0.8;
+}
+body{
+    background-image: url('Images/pagoda.webp');
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 110vh;
+    position: relative;
+    background-repeat: no-repeat;
+    color: white;
+}
+header{
+    position: absolute;
+    text-align: center;
+    width: 75%;
+    left: 12%;
+    top: 2rem;
+}
+header h1{
+    font-size: 45px;
+    text-shadow: 4px 5px #5E3434;
+}
+.empty{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+}
+
+.content{
+    display: flex;
+    min-height: 110vh;
+}
+.content section{
+    margin-top: 8vh;
+    margin-left: 20vh;
+}
+.content-form{
+    margin-top: 7rem;
+}
+section i{
+    border-radius: 40%;
+    width: 40px;
+    height: 35px;
+    background-color: rgba(255,255,255,0.5);
+    color: black;
+    text-align: center;
+}
+.form{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50%;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+}
+
+.form .contact-form input{
+    width: 30rem;
+    background-color: transparent;
+    border: 0px;
+    border: transparent;
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 2px solid #fff;
+}
+.form .contact-form input ~ span{
+    position: absolute;
+    left: 20px;
+    transition: 0.9s ease-in-out;
+    margin-top: 10px;
+}
+.form .contact-form input:focus ~span{
+    transform: translateY(-20px);
+    pointer-events: none;
+}
+.form .contact-form textarea{
+    width: 30rem;
+    border: 0px;
+    background-color: transparent;
+    margin: 20px;
+    font-size: 17px;
+    border-bottom: 2px solid white;
+}
+.form .contact-form textarea ~ span
+{
+    position: absolute;
+    left: 20px;
+    margin-top: 10px;
+    transition: 0.9s ease-in-out;
+}
+.form .contact-form textarea:focus ~span{
+    transform: translateY(-20px);
+    pointer-events: none;
+}
+.form .contact-form input[type=submit]{
+    background-color: #5E3434;
+    border: 2px solid black;
+    font-size: 18px;
+    width: 50%;
+    height: 40px;
+    margin-top: -5px;
+    border-radius: 10px;
+    float: right;
+}
+.form .contact-form input[type=submit]:hover{
+    background-color: transparent;
+    color:white;
+}
+.media{
+    position: absolute;
+    top: 85vh;
+    right: 20vh;
+    display: flex;
+    list-style: none;
+}
+.media li{
+    margin: 20px 30px;
+}
+@media screen and (max-width: 600px){
+
+	body{
+		background-repeat: no-repeat;
+		overflow: auto;
+		background-attachment: fixed;
+	}
+	header{
+		position: absolute;
+		float: center;
+	}
+	header h1{
+		font-size: 40px;
+		padding-top: 23vh;
+	}
+	.empty{
+		height: 220vh;
+	}
+	.form {
+		position: absolute;
+		margin-left: 10%;
+		top: 110vh;
+	}
+	.form .contact-form input{
+		width: 23rem;
+	}
+	.form .contact-form textarea{
+		width: 23rem;
+	}
+	.content-form{
+		display: gird;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 0;
+		padding-top: 25vh;
+		margin-left: 15vh;
+	}
+	.content section{
+		letter-spacing: 2px;
+		font-size: 15px;
+		margin-left: 7vh;
+		text-align: center;
+	}
+	.media{
+		position: absolute;
+		top: 200vh;
+		margin-left: 30%;
+	}
+}
+@media screen and (min-width: 600px){
+	body{
+		background-repeat: no-repeat;
+		overflow: auto;
+		background-attachment: fixed;
+	}
+	header{
+		position: absolute;
+		width: 75%;
+	}
+
+	header h1{
+		padding-top: 23vh;
+	}
+	.empty{
+		height: 240vh;
+	}
+	.form{
+		position: absolute;
+		margin-left: 10%;
+		top: 100vh;
+	}
+	.content-form{
+		display: gird;
+		grid-template-columns: repeat(2, 1fr);
+		padding-top: 35vh;
+		grid-gap: 0;
+		margin-left: 10vh;
+	}
+	.content section{
+		letter-spacing: 2px;
+		font-size: 15px;
+		margin-left: 7vh;
+		margin-top: 0;
+	}
+	.address{
+		float: left;
+	}
+	.phone{
+		padding-top: 25vh;
+		float: right;
+		margin-right: 10%;
+	}
+	.e-mail{
+		padding-top: 25vh;
+		float: left;
+	}
+	.form{
+		padding-top: 25vh;
+		width: 80%;
+	}
+	.media{
+		position: absolute;
+		top: 210vh;
+		margin-right: 10%;
+	}
+}
+@media screen and (min-width: 900px){
+    body{
+        background-repeat: no-repeat;
+        overflow: auto;
+        background-attachment: fixed;
+    }
+    header{
+        position: absolute;
+        left: 0;
+        top: 20%;
+        width: 100%;
+    }
+    header h1{
+		padding-top: 10vh;
+	}
+    .empty{
+        height: 200vh;
+    }
+    .content-form{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0;
+        margin-top: 20vh;
+        margin-left: 10vh;
+    }
+    .content section{
+        margin-top: 0vh;
+        margin-left: 12vh;  
+    }
+    .phone{
+		padding-top: 0;
+		
+	}
+	.e-mail{
+		padding-top: 0;
+	}
+	.form{
+		position: absolute;
+		margin-left: 17%;
+		top: 60vh;
+	}
+	.form .contact-form input{
+		width: 35rem;
+		margin-bottom: 5%;
+	}
+	.form .contact-form textarea{
+		width: 35rem;
+		margin-bottom: 5%;
+	}
+	.media{
+		position: absolute;
+		top: 170vh;
+		margin-right: 23%;
+	}
+ @media screen and (min-width: 1000px){
+ 	header{
+        position: absolute;
+        left: 0;
+        top: 20%;
+        width: 100%;
+    }
+    header h1{
+    	padding-top: 10vh;
+    }
+    .empty{
+    	height: 200vh;
+    }
+    section{
+    	padding-left: 10vh;
+    }
+    section i{
+    	padding-bottom: 10px;
+    }
+    .form{
+    	width: 50%;
+		position: absolute;
+		margin-left: 25%;
+		top: 70vh;
+	}
+	.form .contact-form textarea{
+		width: 25rem;
+		margin-bottom: 5%;
+	}
+	.form .contact-form input{
+		width: 25rem;
+	    left: 80vh;
+	}
+	.media{
+		position: absolute;
+		top: 170vh;
+		margin-right: 30%;
+	}
+
+    
+    
+
+ } 

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Taunggyi-Hotel</title>
+<link rel="stylesheet" href="hotel.css">
+<link rel="stylesheet" type="text/css" href="nav.css">
+<link rel="stylesheet" type="text/css" href="footer.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="http://fonts.googleapis.com/css?family=Sevillana" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link rel="shortcut icon" type="image/png" href="html_img/favicon.png">
+
+
+    <style>
+        @media only screen and (max-width: 600px){
+            .col-1{width:88.33%;}
+            .col-2{width:16.66%;}
+            .col-3{width:25%;}
+            .col-4{width:33.33%;}
+            .col-5{width:41.66%;}
+            .col-6{width:50%;}
+            .col-7{width:58.33%;}
+            .col-8{width:66.66%;}
+            .col-9{width:75%;}
+            .col-10{width:83.33%;}
+            .col-11{width:91.66%;}
+            .col-12{width:100%;}
+ 
+
+          .content{
+                     margin-top:10px;            
+                  }
+
+ 
+
+           .container{
+                         flex-direction: column;
+                      }
+
+
+         .container2{
+                     flex-direction: column;
+                    }
+         .image2{
+                   margin-left:5px;
+                }
+           
+           
+          .left{
+            margin-left: 20px;
+          }
+          .right{
+            margin-top: 2%;
+            margin-left: 10px;
+          }
+          .infor{
+            margin-left: 5%;
+            margin-top: 6%;
+          }
+          .image:hover .overlay{
+          height: 70%;
+      }
+
+      .image2:hover .overlay {
+        height: 70%;
+           }
+
+    }
+
+ 
+
+        @media only screen and (min-width: 600px){
+            .col-d-1{width:88.33%;}
+            .col-d-2{width:16.66%;}
+            .col-d-3{width:25%;}
+            .col-d-4{width:33.33%;}
+            .col-d-5{width:41.66%;}
+            .col-d-6{width:50%;}
+            .col-d-7{width:58.33%;}
+            .col-d-8{width:66.66%;}
+            .col-d-9{width:75%;}
+            .col-d-10{width:83.33%;}
+            .col-d-11{width:91.66%;}
+            .col-d-12{width:100%;}
+
+ 
+
+           .container{
+                       flex-direction:column;
+                     }
+          .content{
+                     margin-top:10px;            
+                  }
+         .container2{
+                       flex-direction:column;
+                     }
+           .content2{
+                        margin-top:10px;
+                    }
+       h3,br{
+            font-size: 25px;
+            }
+         .image:hover .overlay{
+                               height: 84%;
+                                 }
+
+.image2:hover .overlay {
+                     height: 84%;
+                         }
+         }   
+
+
+
+    @media only screen and (min-width: 900px){
+            .col-g-1{width:88.33%;}
+            .col-g-2{width:16.66%;}
+            .col-g-3{width:25%;}
+            .col-g-4{width:33.33%;}
+            .col-g-5{width:41.66%;}
+            .col-g-6{width:50%;}
+            .col-g-7{width:58.33%;}
+            .col-g-8{width:66.66%;}
+            .col-g-9{width:75%;}
+            .col-g-10{width:83.33%;}
+            .col-g-11{width:91.66%;}
+            .col-g-12{width:100%;}
+
+ 
+
+           .container{
+                       flex-direction:row;
+                     }
+           .image{
+                      margin-right:70px;
+                  }
+          .content{
+                     margin-top:80px;            
+                  }
+         .container2{
+                       flex-direction:row-reverse;
+                     }
+           .content2{
+                        margin-top:90px;
+                        margin-left:10px;
+                        margin-right:20px;
+                    }
+             .image:hover .overlay{
+                                  height: 71%;
+                                  }
+
+      .image2:hover .overlay {
+                              height: 71%;
+                              }
+    h3,br{
+         font-size: 20px;
+          }
+     }
+
+
+    @media only screen and (min-width: 1200px){
+           .hotel{
+                  width:100%;
+                  height:350px;
+                 }
+               .image:hover .overlay{
+                                    height: 87%;
+                                    }
+
+             .image2:hover .overlay {
+             height: 87%;
+                         }
+          }
+</style>
+</head>
+<body>
+
+  <!----------------------------------Nav start-------------------------------->
+<nav>
+<input type ="checkbox" name ="" id ="chk1">
+<div class="logo"><a href="reference.html" style="color:white; text-decoration:none;"><h1>Briffon</h1></a></div>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="service.html">Services</a></li>
+<li><a href="about_us.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li>
+<a href="https://www.facebook.com/profile.php?id=100049567938121"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/invites/contact/?i=16reyjgfsjg80&utm_content=le3ruhe"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/HsuLeiWaddy1?s=09"><i class="fa fa-twitter"></i></a>
+</li>
+</ul>
+<div class="search-box">
+<form>
+<input type ="text" name ="search" id ="srch" placeholder="Search">
+<button type ="submit"><i class="fa fa-search"></i></button>
+</form>
+</div>
+<div class="menu">
+<label for="chk1">
+<i class="fa fa-bars"></i>
+</label>
+</div>
+</nav>
+
+<!------------------------------------Hotel section start---------------------------------->
+
+<div class="gallery">
+
+ 
+
+  <div class="one">
+<img src="Images/paramount-inle.jpg" id="inlelake" alt="tg">
+</div>
+<div class="two">
+<img src="Images/monte.png"id="phaung">
+</div>
+<div class="three">
+<img src="Images/mountainstar-hotel.jpg"id="sulamuni" alt="tg">
+</div>
+<div class="four">
+<img src="Images/royal-hotel.webp"id="ngaphe" alt="tg">
+</div>
+<div class="five">
+<img src="Images/inlecottage.jpg"id="ngaphe" alt="tg">
+</div>
+
+</div>
+
+ 
+
+<h1 class="landmark">Hotels in Taunggyi</h1>
+<p id="team">Done By Team Briffon</p><br><br><br><br><br>
+
+ 
+
+<marquee direction="right" scrollamount="0">
+<img src="Images1/sleep.gif" class="bus" alt="tg">
+</marquee><br><br><br><br><br><br>
+
+ 
+
+<div class="container col-12 col-d-12 col-g-12">
+
+ 
+
+    <div class="image col-10 col-d-10 col-g-5">
+
+    <h2>1. Paramount Inle Resort (4.5 stars)</h2>
+    <img src="Images/paramount.jpg" class="hotel" alt="tg">
+    <div class="overlay">
+    <div class="text"><a href="https://www.tripadvisor.com/Hotel_Review-g303658-d648206-Reviews-Paramount_Inle_Resort-Taunggyi_Shan_State.html">Learn more</a></div>
+    </div>
+    </div>
+
+<div class="content col-11 col-d-11 col-g-5">
+<p class="infor"><h3>Address :</h3><br>Nga Phe Chaung Village Inle Lake, Nyaung Shwe, Taunggyi<br><h3><br>Contact :</h3><br>081 212 4941<br><br><h3>Services :</h3>
+      <div class="left">
+
+        <ul>
+          <li>Free wifi</li>
+          <li> Bar / lounge,</li>
+          <li>Head massage</li>
+          <li>24-hour front desk</li>
+         <li>Private balcony </li>
+
+        </ul>
+      </div>
+</p>
+</div>
+
+</div><br><br><br>
+
+ <!--------------------------------------------------------------------------->
+
+<div class="container2 col-12 col-d-12 col-g-12">
+
+ 
+
+    <div class="image2 col-10 col-d-10 col-g-5">
+
+    <h2>2. Monte DiVino Lodge  (4 stars)</h2>
+    <img src="Images/monte-hotel.jpg" class="hotel" alt="tg">
+    <div class="overlay">
+    <div class="text"><a href="https://www.booking.com/hotel/mm/monte-divino-lodge.html">Learn more</a></div>
+    </div>
+    </div>
+
+<div class="content2 col-11 col-d-11 col-g-5">
+<p class="infor"><h3>Address :</h3><br>Bogyoke Aung San Rd, Taunggyi
+<br><h3><br>Contact :</h3><br>09 258 661 699<br><br><h3>Services :</h3>
+      <div class="left">
+
+        <ul>
+          <li>Free wifi</li>
+          <li>Garden</li>
+          <li>bar</li>
+          <li>Free Parking</li>
+          <li>Air-conditioned rooms</li>
+
+        </ul>
+      </div>
+</p>
+</div>
+
+</div><br><br><br>
+
+<!------------------------------------------------------------------------------------>
+<div class="container col-12 col-d-12 col-g-12">
+
+ 
+
+    <div class="image col-10 col-d-10 col-g-5">
+
+    <h2>3. Mountain Star Hotel (4 stars)</h2>
+    <img src="Images/mountainstar.jpg" class="hotel" alt="tg">
+    <div class="overlay">
+    <div class="text"><a href="https://www.booking.com/hotel/mm/mountain-star.html">Learn more</a></div>
+    </div>
+    </div>
+
+<div class="content col-11 col-d-11 col-g-5">
+<p class="infor"><h3>Address :</h3><br>No.64, East Circular Road. Near Mya Kan Thar Round About. Kan Shay Quarter, Taunggyi, Myanmar
+<br><h3><br>Contact :</h3><br>09 799 100099<br><br><h3>Services :</h3>
+      <div class="left">
+
+        <ul>
+          <li>Free wifi</li>
+          <li>Front desk (24 hour)</li>
+          <li>Garden</li>
+
+        </ul>
+      </div>
+      <div class="right">
+        <ul>
+          <li>Car park</li>
+          <li>Bar</li>
+          <li>Restaurant</li>
+        </ul>
+      </div>
+
+</p>
+</div>
+
+</div><br><br><br>
+
+<!----------------------------------->
+ 
+
+<div class="container2 col-12 col-d-12 col-g-12">
+
+ 
+
+    <div class="image2 col-10 col-d-10 col-g-5">
+
+    <h2>4. Royal Taunggyi Hotel (3 stars)</h2>
+    <img src="Images/royal-hotel.webp" class="hotel" alt="tg">
+    <div class="overlay">
+    <div class="text"><a href="https://www.royaltaunggyihotel.com/">Learn more</a></div>
+    </div>
+    </div>
+
+<div class="content2 col-11 col-d-11 col-g-5">
+<p class="infor"><h3>Address :</h3><br>Thit Taw Ward, Hopone Road, Taunggyi, Myanmar<br><h3><br>Contact :</h3><br>081 212 4941<br><br><h3>Services :</h3>
+      <div class="left">
+
+        <ul>
+          <li>Free wifi</li>
+          <li>Fitness Center with Gym </li>
+          <li>Karaoke</li>
+        </ul>
+      </div>
+
+        <div class="right">
+        <ul>
+          <li>Bar</li>
+          <li>Children Activities</li>
+          </ul>
+      </div>
+
+</p>
+</div>
+
+</div><br><br><br>
+
+<!------------------------------------------------------------------->
+
+<div class="container col-12 col-d-12 col-g-12">
+
+ 
+
+    <div class="image col-10 col-d-10 col-g-5">
+
+    <h2>5. Inle Cottage Boutique Hotel (3 stars)</h2>
+    <img src="Images/inlecottage-hotel.jpg" class="hotel" alt="tg">
+    <div class="overlay"> 
+    <div class="text"><a href="https://www.booking.com/hotel/mm/inle-cottage.html">Learn more</a></div>
+    </div>
+    </div>
+
+<div class="content col-11 col-d-11 col-g-5">
+<p class="infor"><h3>Address :</h3><br>136/21, Mingalar Road NanaPAn Quarter, Nyaungshwe, Myanmar <br><h3><br>Contact :</h3><br>09 45919 1917<br><br><h3>Services :</h3>
+      <div class="left">
+
+        <ul>
+          <li>Free wifi</li>
+          <li>Free Parking</li>
+          <li>Breakfast</li>
+          <li>Bicycles available</li>
+        </ul>
+      </div>
+
+</p>
+</div>
+
+</div><br><br><br>
+
+<a href="cities-hotel.html"><button class="go-back">Go Back</button></a>
+
+ <!-------------------------Footer start------------------------------------>
+ 
+<footer class="footer-distributed ">
+
+        <div class="footer-left">
+            <h3>Team<span> Briffon</span></h3>
+
+            <p class="footer-links">
+                <a href="index.html">Home</a>
+                |
+                <a href="service.html">Services</a>
+                |
+                <a href="about_us.html">About</a>
+                |
+                <a href="contact.html">Contact</a>
+            </p>
+
+            <p class="footer-company-name">Copyright © 2022 - 2023 | <strong>www.travelbriffon.com | </strong> All rights reserved</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p>Yangon, Myanmar</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+95 9778406653</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p>teambriffon@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>Our Mission</span>
+            When you travel, keeping in touch with the places is paramount. We believe that travelling to new places can be able to change the way you see the world more than you may think. We hope you will encounter a fantastic trip and release your stress by collaborating with our agency.
+            </p>
+            <div class="footer-icons">
+               <a href="https://www.facebook.com/profile.php?id=100049567938121"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/invites/contact/?i=16reyjgfsjg80&utm_content=le3ruhe"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/HsuLeiWaddy1?s=09"><i class="fa fa-twitter"></i></a>
+               
+            </div>
+        </div>
+    </footer>
+
+
+
+ 
+
+</body>
+</html>

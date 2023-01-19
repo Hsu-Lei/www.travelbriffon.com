@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mandalay-Hotel</title>
+<link rel="stylesheet" href="hotel.css">
+<link rel="stylesheet" type="text/css" href="nav.css">
+<link rel="stylesheet" type="text/css" href="footer.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="http://fonts.googleapis.com/css?family=Sevillana" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link rel="shortcut icon" type="image/png" href="html_img/favicon.png">
+
+
+    <style>
+        @media only screen and (max-width: 600px){
+            .col-1{width:88.33%;}
+            .col-2{width:16.66%;}
+            .col-3{width:25%;}
+            .col-4{width:33.33%;}
+            .col-5{width:41.66%;}
+            .col-6{width:50%;}
+            .col-7{width:58.33%;}
+            .col-8{width:66.66%;}
+            .col-9{width:75%;}
+            .col-10{width:83.33%;}
+            .col-11{width:91.66%;}
+            .col-12{width:100%;}
+
+
+          .content{
+                     margin-top:10px;            
+                  }
+
+ 
+
+           .container{
+                         flex-direction: column;
+                      }
+                   p{
+                    font-size:17px;
+                    padding:6px;
+                    }
+
+ 
+
+         .container2{
+                     flex-direction: column;
+                    }
+         .image2{
+                   margin-left:5px;
+                }
+           
+           
+          .left{
+          	margin-left: 20px;
+          }
+          .right{
+          	margin-top: 2%;
+          	margin-left: 10px;
+          }
+          .infor{
+          	margin-left: 5%;
+          	margin-top: 6%;
+          }
+   .image:hover .overlay{
+    height: 70%;
+}
+
+.image2:hover .overlay {
+  height: 70%;
+}
+		}
+
+ 
+
+        @media only screen and (min-width: 600px){
+            .col-d-1{width:88.33%;}
+            .col-d-2{width:16.66%;}
+            .col-d-3{width:25%;}
+            .col-d-4{width:33.33%;}
+            .col-d-5{width:41.66%;}
+            .col-d-6{width:50%;}
+            .col-d-7{width:58.33%;}
+            .col-d-8{width:66.66%;}
+            .col-d-9{width:75%;}
+            .col-d-10{width:83.33%;}
+            .col-d-11{width:91.66%;}
+            .col-d-12{width:100%;}
+
+ 
+
+           .container{
+                       flex-direction:column;
+                     }
+          .content{
+                     margin-top:10px;            
+                  }
+         .container2{
+                       flex-direction:column;
+                     }
+           .content2{
+                        margin-top:10px;
+                    }
+      h3,br{
+            font-size: 25px;
+      }
+         .image:hover .overlay{
+    height: 84%;
+}
+
+.image2:hover .overlay {
+  height: 84%;
+}
+         }
+      
+
+ 
+
+    @media only screen and (min-width: 900px){
+            .col-g-1{width:88.33%;}
+            .col-g-2{width:16.66%;}
+            .col-g-3{width:25%;}
+            .col-g-4{width:33.33%;}
+            .col-g-5{width:41.66%;}
+            .col-g-6{width:50%;}
+            .col-g-7{width:58.33%;}
+            .col-g-8{width:66.66%;}
+            .col-g-9{width:75%;}
+            .col-g-10{width:83.33%;}
+            .col-g-11{width:91.66%;}
+            .col-g-12{width:100%;}
+
+ 
+
+           .container{
+                       flex-direction:row;
+                     }
+           .image{
+                      margin-right:70px;
+                  }
+          .content{
+                     margin-top:80px;            
+                  }
+         .container2{
+                       flex-direction:row-reverse;
+                     }
+           .content2{
+                        margin-top:90px;
+                        margin-left:10px;
+                        margin-right:20px;
+                    }
+
+       .image:hover .overlay{
+                             height: 71%;
+                             }
+
+      .image2:hover .overlay {
+                              height: 71%;
+                              }
+    h3,br{
+         font-size: 20px;
+          }
+    }
+
+         @media only screen and (min-width: 1200px){
+           .hotel{
+                  width:100%;
+                  height:350px;
+                 }
+               .image:hover .overlay{
+    height: 87%;
+}
+
+.image2:hover .overlay {
+  height: 87%;
+}
+          }
+</style>
+</head>
+<body>
+
+	<!----------------------------------Nav start-------------------------------->
+<nav>
+<input type ="checkbox" name ="" id ="chk1">
+<div class="logo"><a href="reference.html" style="color:white; text-decoration:none;"><h1>Briffon</h1></a></div>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="service.html">Services</a></li>
+<li><a href="about_us.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li>
+<a href="https://www.facebook.com/profile.php?id=100049567938121"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/invites/contact/?i=16reyjgfsjg80&utm_content=le3ruhe"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/HsuLeiWaddy1?s=09"><i class="fa fa-twitter"></i></a>
+
+</li>
+</ul>
+<div class="search-box">
+<form>
+<input type ="text" name ="search" id ="srch" placeholder="Search">
+<button type ="submit"><i class="fa fa-search"></i></button>
+</form>
+</div>
+<div class="menu">
+<label for="chk1">
+<i class="fa fa-bars"></i>
+</label>
+</div>
+</nav>
+
+<!------------------------------------Hotel section start---------------------------------->
+
+<div class="gallery">
+
+ 
+
+  <div class="one">
+<img src="Images1/dragon.jpg" id="inlelake" alt="mdy">
+</div>
+<div class="two">
+<img src="Images1/hotel-red.jpg"id="phaung" alt="mdy">
+</div>
+<div class="three">
+<img src="Images1/ritz.jpg"id="sulamuni" alt="mdy">
+</div>
+<div class="four">
+<img src="Images1/home.jpg"id="ngaphe" alt="mdy">
+</div>
+<div class="five">
+<img src="Images1/hotel_new.jpg"id="ngaphe" alt="mdy">
+</div>
+
+</div>
+
+ 
+
+<h1 class="landmark">Hotels in Mandalay</h1>
+<p id="team">Done By Team Briffon</p><br><br><br><br><br>
+
+ 
+
+<marquee direction="right" scrollamount="0">
+<img src="Images1/sleep.gif" class="bus" alt="mdy">
+</marquee><br><br><br><br><br><br>
+
+ 
+
+<div class="container col-12 col-d-12 col-g-12">
+
+ 
+
+		<div class="image col-10 col-d-10 col-g-5">
+
+		<h2>1. Dragon Phoenix Hotel (4.5 stars)</h2>
+		<img src="Images1/dragon-hotel.png" class="hotel" alt="mdy">
+		<div class="overlay"> 
+		<div class="text"><a href="https://www.booking.com/hotel/mm/dragon-phoenix.html">Learn more</a></div>
+		</div>
+		</div>
+
+<div class="content col-11 col-d-11 col-g-5">
+<p class="infor"><h3>Address :</h3><br>No. 114, 31st Street, Between 79th x 80th Street, Chan Aye Thar Zan Township<br><h3><br>Contact :</h3><br>09 898 989477<br><br><h3>Services :</h3>
+			<div class="left">
+
+				<ul>
+					<li>Free wifi</li>
+					<li>Free Breakfast</li>
+					<li>Free Parking</li>
+					<li>Air conditioning</li>
+
+				</ul>
+			</div>
+			<div class="right">
+				<ul>
+					<li>Restaurant</li>
+					<li>Bar</li>
+				</ul>
+			</div>
+
+</p>
+</div>
+
+</div><br><br><br>
+
+ <!--------------------------------------------------------------------------->
+
+<div class="container2 col-12 col-d-12 col-g-12">
+
+ 
+
+		<div class="image2 col-10 col-d-10 col-g-5">
+
+		<h2>2. Hotel by the Red Canal (4.5 stars)</h2>
+		<img src="Images1/hotel_red.jpg" class="hotel" alt="mdy">
+		<div class="overlay">
+		<div class="text"><a href="https://www.booking.com/hotel/mm/the-by-the-red-canal.html?aid=311984&label=the-by-the-red-canal-_aK%2At3GkGGxkNVosskO1awS392888369950%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-6111454069%3Alp1010216%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YXORK0YJiVoOxcWODxYDaAA&sid=565dd99ccf33c75b30a774eafc7f5900&dest_id=-427446;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1673097630;srpvid=da775dce9e0d06a3;type=total;ucfs=1&#hotelTmpl">Learn more</a></div>
+		</div>
+		</div>
+
+<div class="content2 col-11 col-d-11 col-g-5">
+<p class="infor"><h3>Address :</h3><br>No. 417 corner of 63 and, 22nd St,Mandalay <br><h3><br>Contact :</h3><br>02 406 8543<br><br><h3>Services :</h3>
+			<div class="left">
+
+				<ul>
+					<li>Free wifi</li>
+					<li>Spa</li>
+					<li>Air-conditioning</li>
+				</ul>
+			</div>
+
+    <div class="right">
+      <ul>
+          <li>Pool</li>
+          <li>Restaurant</li>
+         <li>Free Parking</li>
+        </ul>
+      </div>
+
+</p>
+</div>
+
+</div><br><br><br>
+
+<!------------------------------------------------------------------------------------>
+<div class="container col-12 col-d-12 col-g-12">
+
+ 
+
+		<div class="image col-10 col-d-10 col-g-5">
+
+		<h2>3. Ritz Grand Hotel Mandalay (4 stars)</h2>
+		<img src="Images1/ritz-hotel.jpg" class="hotel" alt="mdy">
+		<div class="overlay">
+		<div class="text"><a href="https://www.booking.com/hotel/mm/ramada-encore-mandalay.html?aid=311984&label=ramada-encore-mandalay-ACJ1YouSrIHUQXkKjHUiPwS625030159113%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-635517987523%3Alp1010216%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YbSsBl3MCvHsD8UKUHIRFxY&sid=565dd99ccf33c75b30a774eafc7f5900&dest_id=-427446&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1673098435&srpvid=2e795f61bdc30225&type=total&ucfs=1&activeTab=main">Learn more</a></div>
+		</div>
+		</div>
+
+<div class="content col-11 col-d-11 col-g-5">
+<p class="infor"><h3>Address :</h3><br>42nd Street Between 60th and 62th Street,Mandalay
+<br><h3><br>Contact :</h3><br>02 284 8118<br><br><h3>Services :</h3>
+			<div class="left">
+
+				<ul>
+					<li>Free wifi</li>
+					<li>Free Parking</li>
+					<li>Breakfast Included</li>
+				</ul>
+
+			</div>
+			<div class="right">
+				<ul>
+					<li>Air conditioning</li>
+					<li>Restaurant </li>
+					<li>Business Services</li>
+				</ul>
+			</div>
+
+</p>
+</div>
+
+</div><br><br><br>
+
+<!----------------------------------->
+ 
+
+<div class="container2 col-12 col-d-12 col-g-12">
+
+ 
+
+		<div class="image2 col-10 col-d-10 col-g-5">
+
+		<h2>4. The Home Hotel (4 stars)</h2>
+		<img src="Images1/home-hotel.jpg" class="hotel" alt="mdy">
+		<div class="overlay">
+		<div class="text"><a href="https://the-home-hotel-mandalay.booked.net/">Learn more</a></div>
+		</div>
+		</div>
+
+<div class="content2 col-11 col-d-11 col-g-5">
+<p class="infor"><h3>Address :</h3><br>82nd Street, between 32nd & 33rd Street, Chan Aye Tharzan Township, Mandalay<br><h3><br>Contact :</h3><br>02 403 3702<br><br><h3>Services :</h3>
+			<div class="left">
+
+				<ul>
+					<li>Free wifi</li>
+					<li>Breakfast</li>
+					<li>Free Parking</li>
+				</ul>
+			</div>
+
+        <div class="right">
+        <ul>
+          <li>Restaurant </li>
+          <li>Business services</li>
+          <li>Air conditioning </li>
+        </ul>
+      </div>
+
+</p>
+</div>
+
+</div><br><br><br>
+
+<!------------------------------------------------------------------->
+
+<div class="container col-12 col-d-12 col-g-12">
+
+ 
+
+		<div class="image col-10 col-d-10 col-g-5">
+
+		<h2>5. New Wave Hotel (4 stars)</h2>
+		<img src="Images1/hotel-new.jpg" class="hotel" alt="mdy">
+		<div class="overlay">
+		<div class="text"><a href="https://www.agoda.com/hotel-new-wave/hotel/mandalay-mm.html?cid=1844104">Learn more</a></div>
+		</div>
+		</div>
+
+<div class="content col-11 col-d-11 col-g-5">
+<p class="infor"><h3>Address :</h3><br>80 Street, Between 26&27 Streets Mandalay<br><h3><br>Contact :</h3><br> 09 44044 0270<br><br><h3>Services :</h3>
+			<div class="left">
+
+				<ul>
+					<li>Free wifi</li>
+					<li>Free Parking</li>
+          <li>GardenCar park [free of charge]</li>
+          <li>Daily housekeeping</li>
+				</ul>
+			</div>
+
+</p>
+</div>
+
+</div><br><br><br>
+
+<a href="cities-hotel.html"><button class="go-back">Go Back</button></a>
+
+ <!-------------------------Footer start------------------------------------>
+ 
+<footer class="footer-distributed ">
+
+        <div class="footer-left">
+            <h3>Team<span> Briffon</span></h3>
+
+            <p class="footer-links">
+                <a href="home.html">Home</a>
+                |
+                <a href="service.html">Services</a>
+                |
+                <a href="about_us.html">About</a>
+                |
+                <a href="contact.html">Contact</a>
+            </p>
+
+            <p class="footer-company-name">Copyright © 2022 - 2023 | <strong>www.travelbriffon.com | </strong> All rights reserved</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p>Yangon, Myanmar</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+95 9778406653</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p>teambriffon@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>Our Mission</span>
+            When you travel, keeping in touch with the places is paramount. We believe that travelling to new places can be able to change the way you see the world more than you may think. We hope you will encounter a fantastic trip and release your stress by collaborating with our agency.
+            </p>
+            <div class="footer-icons">
+                <a href="https://www.facebook.com/profile.php?id=100049567938121"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/invites/contact/?i=16reyjgfsjg80&utm_content=le3ruhe"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/HsuLeiWaddy1?s=09"><i class="fa fa-twitter"></i></a>
+               
+            </div>
+        </div>
+    </footer>
+
+
+
+ 
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+*{
+  box-sizing: border-box;
+  font-family:Time News Roman;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background: url(Images1/cities.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    }
+    a.active{
+    background-color: #CCE406 ;
+    border-radius: 10px;
+    color: black;
+    opacity: 0.8;
+}
+ .card{
+        width: 100%;
+        height: 100%;
+ 	  position: relative;
+	  background-color:white;
+
+ }
+
+.card .image{
+	       
+	       padding:5px;
+           object-fit: cover;
+           }
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text a{
+    text-decoration: none;
+    font-family: 'Sevillana', Time News Roman;
+     color: white;
+    font-size: 35px;
+}
+.text a:hover{
+    color: #F7DC6F ;
+}
+
+.card:hover .overlay{
+			     height: 100%;
+           }
+
+}  
+
+ 
