@@ -155,12 +155,12 @@ section i{
 		padding-top: 23vh;
 	}
 	.empty{
-		height: 240vh;
+		height: 270vh;
 	}
 	.form {
 		position: absolute;
 		margin-left: 5px;
-		top: 130vh;
+		top: 90vh;
 	}
 	.form .contact-form input{
 		width: 20rem;
