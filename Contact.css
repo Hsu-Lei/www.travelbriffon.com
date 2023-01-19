@@ -154,18 +154,18 @@ section i{
 	}
 	.empty{
 		width: 100%;
-		height: 220vh;
+		height: 270vh;
 	}
 	.form {
 		position: absolute;
 		margin-left: 5%;
-		top: 110vh;
+		top: 90vh;
 	}
 	.form .contact-form input{
-		width: 23rem;
+		width: 30rem;
 	}
 	.form .contact-form textarea{
-		width: 23rem;
+		width: 30rem;
 	}
 	.content-form{
 		display: gird;
@@ -182,7 +182,7 @@ section i{
 	}
 	.media{
 		position: absolute;
-		top: 200vh;
+		top: 220vh;
 		margin-left: 30%;
 	}
 }
