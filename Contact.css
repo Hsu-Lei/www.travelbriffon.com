@@ -134,7 +134,7 @@ section i{
 .media li{
     margin: 20px 30px;
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 600px){
 
 	body{
 		background-repeat: no-repeat;
@@ -154,7 +154,7 @@ section i{
 	}
 	.form {
 		position: absolute;
-		margin-left: 10%;
+		margin-left: 5px;
 		top: 110vh;
 	}
 	.form .contact-form input{
@@ -173,7 +173,7 @@ section i{
 	.content section{
 		letter-spacing: 2px;
 		font-size: 15px;
-		margin-left: 7vh;
+		margin-left: 4vh;
 		text-align: center;
 	}
 	.media{
@@ -182,7 +182,7 @@ section i{
 		margin-left: 30%;
 	}
 }
-@media screen and (min-width: 400px){
+@media screen and (min-width: 600px){
 	body{
 		background-repeat: no-repeat;
 		overflow: auto;
